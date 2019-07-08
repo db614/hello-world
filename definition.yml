@@ -1,0 +1,27 @@
+key: raven
+title: UCam Raven
+description: University of Cambridge authentication
+author: db614
+isAvailable: true
+useForm: false
+props:
+  audience:
+    type: String
+    title: Web address
+    hint: Web address of originating request
+    order: 1
+  desc: 
+    type: String
+    title: Description
+    hint: Form description
+    order: 2
+  msg: 
+    type: String
+    title: Message
+    hint: Message displayed
+    order: 3
+  debug:
+    type: Boolean
+    title: Debug
+    hint: Debug mode
+    order: 4
